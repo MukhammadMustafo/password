@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   const pass = (e)=>{
     e.preventDefault()
-
+    
   }
   const long = (e)=>{
     e.preventDefault()
