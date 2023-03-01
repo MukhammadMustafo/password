@@ -8,14 +8,11 @@ function App() {
   const long = (e)=>{
     e.preventDefault()
     console.log(e.target.value);
-    if(e.target.value.length >= 8){
+    if(e.target.value.length >= 8 && e.target.value.length <=12){
       e.target.style.border = '3px solid green'
-    }else if (e.target.value.length > 12){
-      e.target.style.border = '3px solid red'
-    }else{
+    } else{
       e.target.style.border = '3px solid red'
     }
-
   }
   return (
     <div className="App">
